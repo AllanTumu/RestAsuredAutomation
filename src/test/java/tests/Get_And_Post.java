@@ -1,12 +1,6 @@
 package tests;
 
 import static org.testng.Assert.assertEquals;
-
-import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.apache.http.impl.client.TargetAuthenticationStrategy;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
@@ -34,13 +28,6 @@ public class Get_And_Post {
 	//POST
 	@Test
 	public void post () {
-		// TODO Auto-generated method stub
-//		Map<String, Object> map = new HashMap<String, Object>();
-		
-//		map.put("name", "Raghav");
-//		map.put("job", "Teacher");
-//		
-//		System.out.println(map);
 		
 		JSONObject request = new JSONObject();
 		
